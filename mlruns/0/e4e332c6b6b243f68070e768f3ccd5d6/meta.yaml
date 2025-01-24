@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rkee/OneDrive%20-%20Hewlett%20Packard%20Enterprise/Documents/GitHub/mlops_assignment1/mlruns/0/e4e332c6b6b243f68070e768f3ccd5d6/artifacts
+end_time: 1737725548504
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4e332c6b6b243f68070e768f3ccd5d6
+run_name: funny-tern-238
+run_uuid: e4e332c6b6b243f68070e768f3ccd5d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737725540607
+status: 3
+tags: []
+user_id: rkee

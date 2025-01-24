@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rkee/OneDrive%20-%20Hewlett%20Packard%20Enterprise/Documents/GitHub/mlops_assignment1/mlruns/0/ab31cce947b04e088b94936d263897e0/artifacts
+end_time: 1737725558234
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab31cce947b04e088b94936d263897e0
+run_name: valuable-bass-833
+run_uuid: ab31cce947b04e088b94936d263897e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737725548522
+status: 3
+tags: []
+user_id: rkee
