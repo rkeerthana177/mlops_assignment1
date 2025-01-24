@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rkee/OneDrive%20-%20Hewlett%20Packard%20Enterprise/Desktop/K/MTech/Sem3/MLOps/mlops_assignment1/mlruns/0/f8b6f36eed794198b633b09a6b73f2c4/artifacts
+end_time: 1737696590882
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8b6f36eed794198b633b09a6b73f2c4
+run_name: defiant-rat-608
+run_uuid: f8b6f36eed794198b633b09a6b73f2c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737696576640
+status: 3
+tags: []
+user_id: rkee

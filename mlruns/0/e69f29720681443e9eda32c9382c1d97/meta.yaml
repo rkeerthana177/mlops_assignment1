@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rkee/OneDrive%20-%20Hewlett%20Packard%20Enterprise/Desktop/K/MTech/Sem3/MLOps/mlops_assignment1/mlruns/0/e69f29720681443e9eda32c9382c1d97/artifacts
+end_time: 1737696622120
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e69f29720681443e9eda32c9382c1d97
+run_name: silent-doe-747
+run_uuid: e69f29720681443e9eda32c9382c1d97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737696606013
+status: 3
+tags: []
+user_id: rkee
