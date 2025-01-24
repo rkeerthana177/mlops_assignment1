@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rkee/OneDrive%20-%20Hewlett%20Packard%20Enterprise/Desktop/K/MTech/Sem3/MLOps/mlops_assignment1/mlruns/0/28fab871821a4aadb7e39cc84fabf29a/artifacts
+end_time: 1737696605987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28fab871821a4aadb7e39cc84fabf29a
+run_name: agreeable-crane-662
+run_uuid: 28fab871821a4aadb7e39cc84fabf29a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737696590906
+status: 3
+tags: []
+user_id: rkee
