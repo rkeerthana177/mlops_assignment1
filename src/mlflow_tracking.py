@@ -43,7 +43,7 @@ def train_and_log_model(n_estimators, max_depth, learning_rate, epochs):
         mse = mean_squared_error(y_test, predictions)
         
         # Log the model and metrics
-        mlflow.sklearn.log_model(model, "model", artifact_path="model_artifacts")
+        mlflow.sklearn.log_model(model, "model")
         mlflow.log_metric("mse", mse)
 
         print(f"Run with n_estimators={n_estimators}, max_depth={max_depth}, mse={mse}")
