@@ -13,7 +13,7 @@ tracking_uri = Path(os.getcwd()) / "mlruns"
 mlflow.set_tracking_uri(tracking_uri.as_uri())
 
 # Load the custom dataset
-data = pd.read_csv('../age_prediction_dataset.csv')
+data = pd.read_csv('age_prediction_dataset.csv')
 
 # One-hot encode categorical features
 data = pd.get_dummies(data, columns=['Age_group', 'Gender', 'PAQ605', 'Diabetic or not', "Respondent's Oral"])
