@@ -19,7 +19,8 @@ jobs:
       - name: Install Packages
         run: pip install --upgrade pip && pip install -r requirements.txt
 
+      - name: Create mlruns directory
+        run: mkdir -p ${{ github.workspace }}/mlruns
+
       - name: Run MLflow tracking script
-        run: |
-          mkdir -p mlruns
-          python src/mlflow_tracking.py
+        run: python src/mlflow_tracking.py
