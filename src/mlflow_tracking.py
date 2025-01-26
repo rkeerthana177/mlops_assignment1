@@ -6,6 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 import os
 from pathlib import Path
+from datetime import datetime
 
 # Set the tracking URI to the current directory
 tracking_uri = Path(os.getcwd()).as_uri()
@@ -23,7 +24,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Function to train and log the model
 def train_and_log_model(n_estimators, max_depth, learning_rate, epochs):
-    with mlflow.start_run():
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") 
+    # Set the run name
+    run_name = f"RandomForest_NewsCategoryTraining_{timestamp}"
+    with mlflow.start_run(run_name=run_name):
         # Log parameters
         mlflow.log_param("n_estimators", n_estimators)
         mlflow.log_param("max_depth", max_depth)
