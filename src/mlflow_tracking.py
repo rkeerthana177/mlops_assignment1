@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 def train_and_log_model(n_estimators, max_depth, learning_rate, epochs):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") 
     # Set the run name
-    run_name = f"RandomForest_NewsCategoryTraining_{timestamp}"
+    run_name = f"RandomForest_AgePredictor_{timestamp}"
     with mlflow.start_run(run_name=run_name):
         # Log parameters
         mlflow.log_param("n_estimators", n_estimators)
@@ -43,7 +43,7 @@ def train_and_log_model(n_estimators, max_depth, learning_rate, epochs):
         mse = mean_squared_error(y_test, predictions)
         
         # Log the model and metrics
-        mlflow.sklearn.log_model(model, "model")
+        mlflow.sklearn.log_model(model, "model", artifact_path="model_artifacts")
         mlflow.log_metric("mse", mse)
 
         print(f"Run with n_estimators={n_estimators}, max_depth={max_depth}, mse={mse}")
